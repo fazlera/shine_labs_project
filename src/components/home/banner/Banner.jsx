@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className=' flex justify-between items-center flex-col lg:flex-row md:flex-row'>
 
                 <div className='w-[100%] md:w-[50%] lg:w-[50%]'>
-                    <div className='ps-52 font-GoogleRed'>
+                    <div className='p-5 md:ps-52 font-GoogleRed'>
                     <h1 className='text-6xl font-extrabold'>The Deepest <br /> Sleep of your <br /> Life</h1>
 
                     <p className='text-xl my-5 font-semibold'>
