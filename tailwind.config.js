@@ -10,5 +10,8 @@ export default {
       GoogleRed:["Red Hat Display","sans-serif"]
     }
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('daisyui'),
+  ],
 }
