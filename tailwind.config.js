@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      GoogleRed:["Red Hat Display","sans-serif"]
+    }
   },
   plugins: [],
 }
