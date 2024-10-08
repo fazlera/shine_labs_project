@@ -1,6 +1,9 @@
 /* Google Font Linking */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+/* Google Font marcellus */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
 /* Tailwind CSS Linking */
 @tailwind base;
 @tailwind components;

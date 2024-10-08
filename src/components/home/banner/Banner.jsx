@@ -9,7 +9,7 @@ const Banner = () => {
 
                 <div className='w-[100%] md:w-[50%] lg:w-[50%]'>
                     <div className='p-5 md:ps-52 font-GoogleRed'>
-                    <h1 className='text-6xl font-extrabold'>The Deepest <br /> Sleep of your <br /> Life</h1>
+                    <h1 className='md:text-6xl text-2xl font-extrabold'>The Deepest <br /> Sleep of your <br /> Life</h1>
 
                     <p className='text-xl my-5 font-semibold'>
                     A <strong>natural</strong> and <span className='text-[#f8ad79] '>melatonin free</span> <strong>science based sleep mix.</strong> <br />  Formulated with herbs & amino acids to help you <strong>sleep deeper, <br /> wake up energized</strong> and <strong>feel better, all day long.</strong>

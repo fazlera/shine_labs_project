@@ -5,9 +5,9 @@ import Button2 from '../../utility/shered/Button/Button2';
 const Features = () => {
     return (
         <div>
-            <div className='h-[450px] flex justify-center items-center gap-10 py-28'>
+            <div className='h-[450px] flex justify-center items-center gap-10 py-28 md:flex-row flex-col mb-96 md:mb-20'>
 
-                <div className="card h-96 bg-base-100 w-[450px] shadow-xl">
+                <div className="card h-96 bg-base-100 md:w-[450px] w-[350px] shadow-xl">
                 <figure className="px-10 pt-10">
                     <img
                     src={features1}
@@ -22,7 +22,7 @@ const Features = () => {
                 </div>
                 </div>
 
-                <div className="card h-96 bg-base-100 w-[450px] shadow-xl">
+                <div className="card h-96 bg-base-100 md:w-[450px] w-[350px] shadow-xl">
                 <figure className="px-10 pt-10">
                     <img
                     src={features2}
@@ -37,7 +37,7 @@ const Features = () => {
                 </div>
                 </div>
 
-                <div className="card h-96 bg-base-100 w-[450px] shadow-xl">
+                <div className="card h-96 bg-base-100 md:w-[450px] w-[350px] shadow-xl">
                 <figure className="px-10 pt-10">
                     <img
                     src={features3}

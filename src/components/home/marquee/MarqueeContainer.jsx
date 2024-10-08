@@ -7,7 +7,7 @@ import { LuHeartCrack } from "react-icons/lu";
 import { SiCelestron, SiFreelancermap, SiHearthisdotat } from "react-icons/si";
 const MarqueeContainer = () => {
     return (
-        <div className=" bg-[#f8ad79]">
+        <div className=" bg-[#f8ad79] mb-96 md:mb-20">
             <Marquee
              direction="right" speed={150}
              pauseOnHover={true}

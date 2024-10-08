@@ -98,22 +98,32 @@ const Navbar = () => {
 
       {/* Navbar bottom title */}
       <div className="bg-[#ffe1cc]">
-      <div className="w-auto lg:w-6/12 mx-auto flex justify-between p-1 text-sm">
       
-      <h1 className="flex items-center gap-3 font-bold font-GoogleRed "> <span><CiDeliveryTruck />
-      </span>  FAST SHIPPING</h1>
+      <div className="lg:w-8/12 mx-auto flex justify-center items-center gap-5 md:gap-40 p-1">
+      
+      <div className=" text-[10px] md:text-[18px]">
+          <h1 className="flex items-center gap-3 font-bold font-GoogleRed "> <span><CiDeliveryTruck />
+          </span>  FAST SHIPPING
+          </h1>
+      </div>
+     
+      <div className=" text-[10px] md:text-[18px]">
+          <h1 className="flex items-center gap-3 font-bold font-GoogleRed">
+          <span>
+            <LuLeaf />
+            </span> 
+          100% NATURAL INGREDIENTS
+          </h1>
+       </div>
 
-      <h1 className="flex items-center gap-3 font-bold font-GoogleRed ">
-       <span>
-        <LuLeaf />
-        </span> 
-       100% NATURAL INGREDIENTS</h1>
-
-      <h1 className="flex items-center gap-3 font-bold font-GoogleRed ">
-      <span>
-      <GiSelfLove />
-      </span>  
-      BETTER SLEEP</h1>
+       <div className=" text-[10px] md:text-[18px]">
+          <h1 className="flex items-center gap-3 font-bold font-GoogleRed">
+          <span>
+          <GiSelfLove />
+          </span>  
+          BETTER SLEEP
+          </h1>
+      </div>
 
     </div>
       </div>

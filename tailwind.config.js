@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      GoogleRed:["Red Hat Display","sans-serif"]
+      GoogleRed:["Red Hat Display","sans-serif"],
+      GoogleMarcellus:["Marcellus SC","sans-serif"]
     }
   },
   plugins: [
