@@ -1,5 +1,6 @@
 
 import './App.css'
+import Faq from './components/Faq/Faq'
 import Features from './components/features/Features'
 import Banner from './components/home/banner/Banner'
 import MarqueeContainer from './components/home/marquee/MarqueeContainer'
@@ -43,6 +44,10 @@ function App() {
 
       <div>
         <Table></Table>
+      </div>
+
+      <div>
+        <Faq></Faq>
       </div>
       
     </>
